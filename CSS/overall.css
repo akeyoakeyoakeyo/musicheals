@@ -1,0 +1,158 @@
+
+ul{
+    list-style-type: none;
+
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: whitesmoke;
+
+}
+
+li{
+    float: left;
+            padding: 40px;
+            font-weight: bold;
+            font-family: Chilanka;
+            font-size: x-large;
+
+}
+
+a{
+    text-decoration: none;
+            color: black;
+}
+
+a:hover{
+    color: grey;
+}
+
+.logotext{
+    font-size: large;
+    font-style: italic;
+    margin-left: 550px;
+}
+
+.logoimg{
+    margin-bottom: 0;
+   margin-left: 550px;
+}
+
+.logocontainer{
+    background-color: peachpuff;
+    padding-bottom: 4px;
+    margin-top: 2px;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+
+
+#form-container{
+    color: whitesmoke;
+    float: right;
+    background-color: #070809;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px #0cabdc;
+    width: 45%;
+    margin-right: 20px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+
+#menu-services{
+      position: relative;
+      display: inline-block
+}
+#dropdown-services{
+    display: none;
+    padding: 1vmax;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+#menu-services:hover #dropdown-services {
+    display: block;
+}
+
+.karibu{
+    border: 2px;
+    padding: 20px;
+    box-shadow: 0 0 15px;
+    margin-top: 80px;
+    color: black;
+    font-weight: 540;
+    font-size: large;
+    background-color: peachpuff;
+    width: 50%;
+    margin-left: 300px;
+    position: absolute;
+}
+
+.readmore{
+    border: none;
+    background-color: peachpuff;
+    font-size: larger;
+    color: saddlebrown;
+}
+
+.readmore:hover{
+    font-weight: bold;
+}
+
+.about{
+    border: 2px;
+    padding: 20px;
+    box-shadow: 0 0 15px;
+    margin-top: 75px;
+    color: black;
+    font-weight: 540;
+    font-size: large;
+    background-color: peachpuff;
+    width: 50%;
+    margin-left: 245px;
+    position: absolute;
+}
+
+.kcm{
+
+    border: 2px;
+    padding: 20px;
+    box-shadow: 0 0 15px;
+
+    color: whitesmoke;
+    font-weight: 540;
+    font-size: medium;
+    background-color: black;
+    width: 25%;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.yamaha{
+
+    border: 2px;
+    padding: 20px;
+    box-shadow: 0 0 15px;
+
+    color: whitesmoke;
+    font-weight: 540;
+    font-size: medium;
+    background-color: black;
+    width: 25%;
+    margin-left: 400px;
+    position: absolute;
+
+}
